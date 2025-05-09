@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Timchiks wiki
 
 # import hextra as module
 module:
@@ -18,29 +18,24 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Blog
+      pageRef: /blog
       weight: 1
+    # - name: Wiki
+    #   pageRef: /wiki
+    #   weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
     - name: Search
-      weight: 4
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/su5kk/wiki"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
   navbar:
@@ -49,8 +44,8 @@ params:
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/su5kk/wiki/edit/main/content"

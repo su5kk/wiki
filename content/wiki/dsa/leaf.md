@@ -1,7 +1,7 @@
 ---
 title: Leaf Page
 type: docs
-prev: docs/folder/
+prev: wiki/dsa/
 ---
 
 This page is under a folder.
