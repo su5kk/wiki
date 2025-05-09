@@ -1,9 +1,9 @@
 ---
-title: Documentation
+title: Wiki
 next: first-page
 ---
 
-This is a demo of the theme's documentation layout.
+This is a collection of notes on a variety of topics.
 
 ## Hello, World!
 

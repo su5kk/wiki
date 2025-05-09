@@ -2,8 +2,7 @@
 title: Demo Page
 type: docs
 prev: /
-next: docs/folder/
+next: wiki/dsa/
 ---
 
 A simple demo page.
-
