@@ -1,15 +1,17 @@
+<!-- Google Calendar Appointment Scheduling begin -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
 <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0HggYg3o6mabbHuJeCRSXhQfhQ215MO4NWZKHYrBpwQgM0gn15sczxzD--6KZU503yuhC9_6cH?gv=true', // Ensure this URL is correct
-      color: '#0B8043',
-      label: 'Book an appointment',
-      target,
-    });
-  });
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/AcZssZ0WUIFvAs93wISRhPN9w8QsfkER9IdcS2Vq6WY=?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
 })();
 </script>
+<!-- end Google Calendar Appointment Scheduling -->
