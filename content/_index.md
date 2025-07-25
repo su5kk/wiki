@@ -9,4 +9,5 @@ toc: false
 
 {{< cards >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="blog" title="Blog" icon="book-open" >}}
 {{< /cards >}}
